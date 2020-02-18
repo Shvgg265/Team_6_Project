@@ -1,0 +1,31 @@
+#inp_email{
+    width: 604px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding-left: 20px; 
+    font-family: Arial;
+    vertical-align: middle;
+    font-weight: normal;
+    font-size: 15px; 
+}
+
+.buttonInside{
+    position:relative;
+    margin-bottom:10px;
+}
+
+#get_started{
+    background-color: #F67590;
+    border: none;
+    color: white;
+    font-family: Arial;
+    vertical-align: middle;
+    font-weight: normal; 
+    font-size: 14px; 
+    height: 42px; 
+    width: 174px;
+    border-radius: 25px;
+    margin-left: -185px;
+    padding: 5px 20px 5px 20px;
+}
