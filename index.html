@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/index_1.css">
+    <link rel="stylesheet" href="./css/index.css">
     <script src="https://kit.fontawesome.com/75b5c93895.js" crossorigin="anonymous"></script>
-    </head>
+    <script src="./js/lightbox-plus-jquery.min.js"></script>    
+</head>
 <body class="bod">
     <div id="pink_margin">
         <!-- Logo Menu Text and big Girl Pic-->
@@ -21,8 +22,22 @@
                         <img id="logo_image" src="./img/logo.png" alt="">
                     </a>
                 </div>
-                <div id="menu_list">
-                    
+                <div class="menu_list">
+                    <nav id="myLinks">
+                        <a href="./index.html">Elements</a>
+                        <a href="./index.html">Generic</a>
+                        <a href="./index.html">Home</a>
+                    </nav>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <span id="hamb">
+                            <i class="fa fa-bars"></i>
+                        </span>
+                        <span id="crss">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </a>
+
                 </div>    
             </div> 
             <div id="pic_and_text">
@@ -103,22 +118,23 @@
             </div>
         </div>
         
+
         <!-- Kids Pics -->
         <div id="kids_pics">
-            <div id="two_kids_one">
-                <img id="g1" src="./img/g1.jpg" alt="">
-                <img id="g2" src="./img/g2.jpg" alt="">
+            <div class="gallery" id="two_kids_one">
+                <a href="./img/g1.jpg" > <img id="g1" src="./img/g1.jpg" alt=""> </a>
+                <a href="./img/g2.jpg"> <img id="g2" src="./img/g2.jpg" alt=""> </a>
             </div>
 
-            <div id="three_kids">
-                <img id="g3" src="./img/g3.jpg" alt="">
-                <img id="g4" src="./img/g4.jpg" alt="">
-                <img id="g5" src="./img/g5.jpg" alt="">
+            <div class="gallery" id="three_kids">
+                <a href="./img/g3.jpg"> <img id="g3" src="./img/g3.jpg" alt=""> </a>
+                <a href="./img/g4.jpg"> <img id="g4" src="./img/g4.jpg" alt=""> </a>
+                <a href="./img/g5.jpg"> <img id="g5" src="./img/g5.jpg" alt=""> </a>
             </div>
 
-            <div id="two_kids_two">
-                <img id="g6" src="./img/g6.jpg" alt="">
-                <img id="g7" src="./img/g7.jpg" alt="">
+            <div class="gallery" id="two_kids_two">
+                <a href="./img/g6.jpg"> <img id="g6" src="./img/g6.jpg" alt=""> </a>
+                <a href="./img/g7.jpg"> <img id="g7" src="./img/g7.jpg" alt=""> </a>
             </div>
         </div>
 
@@ -242,6 +258,7 @@
         </div>
 
     </div>
-    <script src="./js/index_1.js" >  </script>
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <script src="./js/index.js" >  </script>
 </body>
 </html>

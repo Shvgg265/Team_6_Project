@@ -46,11 +46,44 @@
     margin: 35px 0px 0px 0px;
 }
 
-#menu_list{
+.menu_list{
     width: 392px;
     height: 28px;
     margin: 32px 55px 0px 0px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
 }
+
+#myLinks{
+    display: none;
+}
+
+.menu_list a {
+    float: right;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+#hamb{
+    display: block;
+}
+
+#crss{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 #pic_and_text{
     display: flex;
@@ -371,6 +404,7 @@
     height: 203px;
     padding: none;
 }
+
 
 #six_icons{
     background-color: #F9FAFF;
